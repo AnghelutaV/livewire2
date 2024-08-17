@@ -19,7 +19,7 @@ class TestEvent implements ShouldBroadcast
      * Create a new event instance.
      */
     public $text;
-    public function __construct($text)
+    public function __construct($text=null)
     {
         Log::info($text);
 

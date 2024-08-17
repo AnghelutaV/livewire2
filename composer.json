@@ -10,7 +10,8 @@
         "laravel/reverb": "@beta",
         "laravel/tinker": "^2.9",
         "livewire/livewire": "^3.5",
-        "outhebox/laravel-translations": "^1.1"
+        "outhebox/laravel-translations": "^1.1",
+        "pusher/pusher-php-server": "^7.2"
     },
     "require-dev": {
         "fakerphp/faker": "^1.23",

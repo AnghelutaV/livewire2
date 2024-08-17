@@ -5,7 +5,9 @@ namespace App\Livewire;
 
 use App\Events\TestEvent;
 use App\Models\Book;
+use Illuminate\Support\Facades\Log;
 use Illuminate\Support\Facades\Storage;
+use Livewire\Attributes\On;
 use Livewire\Component;
 use Livewire\WithPagination;
 
@@ -27,9 +29,10 @@ class BookList extends Component
 
         return view('livewire.book-list', ['books' => $books]);
     }
-
+    #[On('echo:wBSOCKET,TestEvent')]
     public function refreshBooks()
     {
+        Log::info('in component with echo');
         // Reset pagination to the first page
         //broadcast(new TestEvent('testMessage'))->toOthers();
 

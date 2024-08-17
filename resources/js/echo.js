@@ -1,6 +1,4 @@
 import Echo from 'laravel-echo';
-// Initialize Echo
-
 import Pusher from 'pusher-js';
 window.Pusher = Pusher;
 

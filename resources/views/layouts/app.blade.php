@@ -35,6 +35,17 @@
 
     @stack('scripts')
 
+
+    <script>
+        // console.log(window.Echo);
+
+
+        // Echo.channel('wBSOCKET')
+        //     .listen('TestEvent', e => {
+        //         console.log(e.text)
+        //     })
+    </script>
+
 </body>
 
 </html>
